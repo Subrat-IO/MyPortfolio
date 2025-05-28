@@ -658,7 +658,7 @@ header ul a {
 
 }
 @keyframes autoRun{
-    form{
+    from{
         left: 100%;
     }to{
         left: calc(var(--width) * -1);
