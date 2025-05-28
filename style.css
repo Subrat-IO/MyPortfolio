@@ -55,7 +55,8 @@ header {
 
 .left img {
     width: 40px;
-    margin: 0 15px;
+    margin: 0 35px;
+    border-radius: 50%;
 
 }
 
@@ -388,7 +389,7 @@ header ul a {
 }
 
 .card:nth-child(2) h1 {
-    bottom: 26%;
+    bottom: 34%;
 }
 
 .card:nth-child(4) {
