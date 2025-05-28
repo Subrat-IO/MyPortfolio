@@ -1,10 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: lightgray;
 }
-.container{
+
+.container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -14,14 +15,16 @@ body{
     gap: 100px;
     background-color: #5375db38;
 }
-.back-vid{
+
+.back-vid {
     position: fixed;
     right: 0;
     bottom: 0;
     z-index: -1;
     mix-blend-mode: overlay;
 }
-header{
+
+header {
     display: flex;
     position: absolute;
     top: 0;
@@ -39,22 +42,24 @@ header{
 
 }
 
-.tt-heading{
+.tt-heading {
     display: flex;
     font-size: 30px;
     margin-left: -30px;
 }
-.left{
+
+.left {
     display: flex;
     align-items: center;
 }
 
-.left img{
+.left img {
     width: 40px;
     margin: 0 15px;
 
 }
-header ul{
+
+header ul {
     display: flex;
     justify-content: space-between;
     width: 30%;
@@ -65,25 +70,27 @@ header ul{
     box-shadow: 0 0 10px #727fde65;
 
 }
- header ul li{
-    list-style: none;
- }
 
- header ul a{
+header ul li {
+    list-style: none;
+}
+
+header ul a {
     text-decoration: none;
     color: white;
     font-weight: 700;
     margin: 0 10px;
 
- }
- .box-icons{
+}
+
+.box-icons {
     display: flex;
     gap: 40px;
 
- }
+}
 
- .box-icons a {
-    display:  flex;
+.box-icons a {
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 20px;
@@ -95,13 +102,15 @@ header ul{
     border-radius: 50%;
     transition: 0.3s;
 
- }
-.box-icons a:hover{
+}
+
+.box-icons a:hover {
     background-color: #727fde;
     color: black;
     box-shadow: 0 0 15px #727fde65;
 }
-.blackhole-box{
+
+.blackhole-box {
     position: absolute;
     top: 0;
     width: 100%;
@@ -110,13 +119,14 @@ header ul{
     mix-blend-mode: lighten;
     z-index: -1;
 }
-.blackhole-box video{
+
+.blackhole-box video {
     width: 100%;
     margin-top: -23.5%;
 
 }
 
-.hero{
+.hero {
     position: relative;
     display: flex;
     width: 100%;
@@ -125,11 +135,13 @@ header ul{
     justify-content: space-between;
 
 }
-.hero-info{
+
+.hero-info {
     position: absolute;
     left: 5%;
 }
-.hero-info .hero-info-title{
+
+.hero-info .hero-info-title {
     color: #727fde;
     padding: 8px 5px;
     border: 1px solid #727fde;
@@ -139,10 +151,12 @@ header ul{
     box-shadow: 0 0 5px #727fde88;
     border-radius: 50px;
 }
-.hero-info .hero-info-title:hover{
-     box-shadow: 0 0 15px #727fde86;
+
+.hero-info .hero-info-title:hover {
+    box-shadow: 0 0 15px #727fde86;
 }
-.hero-info h1{
+
+.hero-info h1 {
     font-size: 55px;
     max-width: 600px;
     font-weight: 700;
@@ -151,14 +165,16 @@ header ul{
     margin-bottom: 30px;
 
 }
-.hero-info p{
+
+.hero-info p {
     max-width: 550px;
     line-height: 25px;
     margin-bottom: 30px;
     font-size: 17px;
 
 }
-.hero-info button{
+
+.hero-info button {
     color: white;
     padding: 15px 35px;
     border-radius: 10px;
@@ -167,37 +183,40 @@ header ul{
     box-shadow: 0 0 5px #727fde86;
     cursor: pointer;
 }
-.hero-info button:hover{
+
+.hero-info button:hover {
     box-shadow: 0 0 15px #727fde86;
 }
 
 /* Gradient class */
 
-.gradient{
-    background: linear-gradient(to right,#008baa,#7e42a7,#6600c5,#6070fd,#2a46ff,#0099ff,#008ead);
+.gradient {
+    background: linear-gradient(to right, #008baa, #7e42a7, #6600c5, #6070fd, #2a46ff, #0099ff, #008ead);
     background-size: 200%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate-gradient 2.5s linear infinite;
 }
-@keyframes animate-gradient{
-    to{
+
+@keyframes animate-gradient {
+    to {
         background-position: 200%;
     }
 }
 
 
-.hero-vid.box{
+.hero-vid.box {
     position: absolute;
     right: 3%;
 }
-.video{
+
+.video {
     height: 900px;
     mix-blend-mode: lighten;
 }
 
-.scroll-down{
+.scroll-down {
     height: 50px;
     width: 30px;
     border: 2px solid lightgray;
@@ -208,8 +227,9 @@ header ul{
     cursor: pointer;
     box-shadow: 0 0 15px lightgray;
 }
+
 .scroll-down::before,
-.scroll-down::after{
+.scroll-down::after {
     content: "";
     position: absolute;
     top: 20%;
@@ -217,31 +237,36 @@ header ul{
     left: 15%;
     width: 10px;
     border: 2px solid lightgray;
-    transform: translate(50% , 100%) rotate(45deg);
+    transform: translate(50%, 100%) rotate(45deg);
     border-top: transparent;
     border-left: transparent;
     animation: scroll-down 2s ease-in-out infinite;
 
 }
-.scroll-down::before{
+
+.scroll-down::before {
     top: 30%;
     animation-delay: 0.5s;
 }
 
 
-@keyframes scroll-down{
-    0%{
+@keyframes scroll-down {
+    0% {
         opacity: 0;
     }
-    30%, 60%{
+
+    30%,
+    60% {
         opacity: 1;
     }
-    100%{
-        top:98%;
+
+    100% {
+        top: 98%;
         opacity: 0;
     }
 }
-.info-section{
+
+.info-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,13 +274,14 @@ header ul{
     margin-top: 100px;
 
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     font-weight: 700;
 
 }
 
-.info-cards{
+.info-cards {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
@@ -264,7 +290,8 @@ header ul{
     margin-top: 30px;
 
 }
-.card{
+
+.card {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -280,13 +307,15 @@ header ul{
 
 
 }
-.card img{
+
+.card img {
     width: 80%;
     height: 70%;
-    object-fit:cover;
+    object-fit: cover;
 
 }
-.card p{
+
+.card p {
     position: absolute;
     bottom: 3%;
     left: 5%;
@@ -296,7 +325,8 @@ header ul{
     line-height: 20px;
     color: gray;
 }
-.card h1{
+
+.card h1 {
     position: absolute;
     margin: 0;
     z-index: 1;
@@ -305,16 +335,17 @@ header ul{
     bottom: 40%;
     font-size: 25px;
 
-} 
+}
 
-.card video{
+.card video {
     /* margin-top: 10%;
     width: 70%; */
     height: 50%;
     object-fit: cover;
     mix-blend-mode: lighten;
 }
-.card button{
+
+.card button {
     color: white;
     padding: 5px 15px;
     border-radius: 10px;
@@ -328,53 +359,64 @@ header ul{
     bottom: 5%;
 }
 
-.card button:hover{
+.card button:hover {
     box-shadow: 0 0 15px #727fde86;
     opacity: 0.7;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0 0 15px rgba(211, 211, 211, 0.5);
 
 }
-.card:nth-child(3){
+
+.card:nth-child(3) {
     grid-row: span 2;
     height: 83vh;
 
 }
-.card:nth-child(3) p{
+
+.card:nth-child(3) p {
     bottom: 12%;
 }
-.card:nth-child(3) h1{
-bottom: 21%;
+
+.card:nth-child(3) h1 {
+    bottom: 21%;
 }
-.card:nth-child(1) h1{
-bottom: 21%;
+
+.card:nth-child(1) h1 {
+    bottom: 21%;
 }
-.card:nth-child(2) h1{
-bottom: 26%;
+
+.card:nth-child(2) h1 {
+    bottom: 26%;
 }
-.card:nth-child(4){
+
+.card:nth-child(4) {
     grid-column: span 2;
 }
-.card:nth-child(4) p{
+
+.card:nth-child(4) p {
     max-width: 650px;
 }
-.card:nth-child(4) h1{
+
+.card:nth-child(4) h1 {
     bottom: 35%;
 }
-.Image-card{
-    margin-top: -130px;    
+
+.Image-card {
+    margin-top: -130px;
 }
 
 
-@media (max-aspect-ratio:16/9){
-    .back-vid{
+@media (max-aspect-ratio:16/9) {
+    .back-vid {
         width: auto;
         height: 100%;
     }
 }
-@media (min-aspect-ratio:16/9){
-    .back-vid{
+
+@media (min-aspect-ratio:16/9) {
+    .back-vid {
         width: 100%;
         height: auto;
     }
@@ -384,7 +426,7 @@ bottom: 26%;
 
 /*My project styles */
 
-.my-projects{
+.my-projects {
     display: flex;
     flex-direction: column;
     gap: 10%;
@@ -396,15 +438,17 @@ bottom: 26%;
     margin-bottom: 700px;
 
 }
-.project-card{
-     display: flex;
+
+.project-card {
+    display: flex;
     width: 100%;
     height: 40%;
     align-items: center;
     gap: 10%;
     justify-content: center;
 }
-.project-vid-box{
+
+.project-vid-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -417,7 +461,7 @@ bottom: 26%;
 
 }
 
-.project-vid-box video{
+.project-vid-box video {
     object-fit: cover;
     width: 100%;
     box-shadow: 0 0 10px lightgray;
@@ -426,28 +470,30 @@ bottom: 26%;
 
 }
 
-.project-vid-box video:hover{
+.project-vid-box video:hover {
     box-shadow: 0 0 20px lightgray;
 }
 
-.project-info{
-    display:  flex;
+.project-info {
+    display: flex;
     flex-direction: column;
-align-items: center;
-justify-content: center;
-padding-left: -10%;
-width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-left: -10%;
+    width: 50%;
 }
-.project-info h1{
+
+.project-info h1 {
     width: 90%;
     font-size: 25px;
     font-weight: bold;
     text-wrap: nowrap;
     margin-top: 0;
     max-width: 450px;
-    
+
 }
-.project-info p{
+
+.project-info p {
     word-wrap: 0;
     width: 90%;
     justify-content: flex-start;
@@ -456,8 +502,9 @@ width: 50%;
     margin-bottom: 50px;
     margin-top: 0;
 
- }
- .project-info button{
+}
+
+.project-info button {
     color: white;
     padding: 5px 15px;
     border-radius: 10px;
@@ -468,12 +515,12 @@ width: 50%;
     transition: 0.3s;
 }
 
-.project-info button:hover{
+.project-info button:hover {
     box-shadow: 0 0 15px lightgray;
     opacity: 0.7s;
- }
+}
 
-  .hover-sign{
+.hover-sign {
     display: flex;
     position: absolute;
     align-items: center;
@@ -481,8 +528,149 @@ width: 50%;
     width: 30%;
     height: 100px;
 
-  }
-  .hover-sign::before,
-  .hover-sign::after{
-    content: "";
-  }
+}
+
+.hover-sign::before,
+.hover-sign::after {
+    content: "👋";
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    top: 20%;
+    border-radius: 50%;
+    left: 40%;
+    animation: hoverAnimation 3s ease-in-out infinite;
+
+
+}
+
+@keyframes hoverAnimation {
+    0% {
+        box-shadow: 0 0 5px lightgray;
+        transform: translate(100%, 50%) rotate(30deg);
+    }
+
+    100% {
+        box-shadow: 0 0 15px lightgray;
+        transform: translateX(80%, 50%) rotate(0deg);
+    }
+}
+
+.hover-sign.active {
+    display: none;
+}
+
+/* Skills Section */
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.skills-box {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-self: center;
+    margin-top: -30px;
+
+}
+
+.skills-image {
+    width: 70%;
+    mix-blend-mode: lighten;
+    margin-left: 15%;
+    opacity: 0.7;
+}
+
+.designer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    top: 25%;
+    left: 5%;
+    max-width: 300px;
+}
+
+.coder {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    top: 25%;
+    right: 5%;
+    max-width: 300px;
+}
+
+.skills-box h1 {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.skills-box p {
+    height: 23px;
+
+}
+
+/* Slider Section */
+
+.slider {
+    position: absolute;
+    bottom: -2%;
+    right: 20%;
+    /* margin-top: 50px !important; */
+    width: 60%;
+    height: var(--height);
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
+    mix-blend-mode: difference;
+    opacity: 0.8;
+}
+.slider .list{
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width) * var(--quantity));
+    position: relative;
+
+}
+.slider .list .item{
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    left: 100%;
+    animation: autoRun 10s linear infinite;
+    transition: filter 0.7s;
+    animation-delay: calc((10s / var(--quantity)) * (var(--position) - 1) - 10s)!important;
+
+
+}
+
+.slider .list .item img{
+    width: 100%;
+
+}
+@keyframes autoRun{
+    form{
+        left: 100%;
+    }to{
+        left: calc(var(--width) * -1);
+    }
+}
+
+.slider:hover .item{
+    animation-play-state: paused !important;
+    filter: grayscale(1);
+}
+
+.slider .item:hover{
+    filter: grayscale(0);
+
+}
