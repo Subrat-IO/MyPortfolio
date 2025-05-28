@@ -665,7 +665,7 @@ header ul a {
     }
 }
 
-.slider:hover .item{
+.slider:hover  .item{
     animation-play-state: paused !important;
     filter: grayscale(1);
 }
