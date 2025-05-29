@@ -28,8 +28,9 @@ html{
 }
 
 header {
+    scroll-margin-top: 80px;
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -271,6 +272,7 @@ header ul a {
 }
 
 .info-section {
+    scroll-margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -430,6 +432,7 @@ header ul a {
 /*My project styles */
 
 .my-projects {
+    scroll-margin-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 10%;
@@ -627,6 +630,7 @@ header ul a {
 /* Slider Section */
 
 .slider {
+    scroll-margin-top: 200px;
     position: absolute;
     bottom: -16%;
     right: 20%;
@@ -688,6 +692,7 @@ header ul a {
 
 .contact-section {
     width: 80%;
+    scroll-margin-top: 180px;
     height: 100%;
     margin-top: 10%;
     margin-bottom: 9%;
