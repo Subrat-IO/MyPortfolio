@@ -849,3 +849,9 @@ footer h1 {
         filter: blur(0);
     }
 }
+
+
+.fadeInRight{
+    animation: fadeInAnimation both;
+    
+}
