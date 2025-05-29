@@ -800,14 +800,15 @@ footer {
     align-items: center;
     justify-content: center;
     height: 70px;
-    background-color: rgba(255, 255, 255, 0.128);
+    background-color: rgba(45 , 57, 128, 0.13);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.356);
     backdrop-filter: blur(10px);
     z-index: 999;
 }
 
 footer h1 {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 100;
     font-family: 'Lora', serif;
     font-style: italic;
 }
