@@ -16,7 +16,7 @@ html{
     flex-direction: column;
     align-items: center;
     gap: 100px;
-    background-color: #5375db38;
+    background-color: #120f5638;
 }
 
 .back-vid {
@@ -628,7 +628,7 @@ header ul a {
 
 .slider {
     position: absolute;
-    bottom: -2%;
+    bottom: -16%;
     right: 20%;
     /* margin-top: 50px !important; */
     width: 60%;
@@ -689,7 +689,7 @@ header ul a {
 .contact-section {
     width: 80%;
     height: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 9%;
     display: flex;
     justify-content: center;
