@@ -814,6 +814,86 @@ footer h1 {
     font-style: italic;
 }
 
+.menu-icon {
+    font-size: 35px;
+    cursor: pointer;
+    margin-right: 10px;
+    /* display: none; */
+}
+
+/* Sidebar (initial state) */
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 70%;
+    width: 0;
+    opacity: 0;
+    background-color: #000000b8;
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    box-shadow: 0 0 20px rgba(211, 211, 211, 0.411);
+    border-bottom-left-radius: 100%;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Open Sidebar Animation */
+.sidebar.open-sidebar {
+    width: 80%;
+    opacity: 1;
+    bottom: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Close Icon */
+.close-icon {
+    font-size: 50px;
+    color: lightgray;
+    padding-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 0 15px rgba(128, 128, 128, 0.256);
+}
+
+.sidebar .social-icon {
+    padding-left: 20px;
+    margin-top: 60px;
+    white-space: nowrap;
+}
+
+.sidebar .social-icon a {
+    font-size: 35px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+ /* Hide Sidebar */
+
+ @media screen and (min-width: 524px) {
+    .sidebar {
+        display: none !important;
+    }
+
+    .menu-icon {
+        display: none !important;
+    }
+}
 
 /* Blur Effect Animation */
 .autoBlur {
@@ -1144,3 +1224,11 @@ footer h1 {
     }
 }
 
+
+/* 3list in tablet*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .projects,
+  .contact {
+    display: none;
+  }
+}
