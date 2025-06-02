@@ -1067,8 +1067,11 @@ footer h1 {
         margin-top: 70px;
 
     }
+    .skills-section{
+        margin-top: -270px;
+    }
     .slider{
-        top: 780px;
+        top: 830px;
     }
     .slider img{
         width: 60%;
@@ -1111,10 +1114,10 @@ footer h1 {
     }
     #VID{
         margin-top: -900px;
-        height: 600px;
+        /* height: 600px; */
     }
     .hero{
-        margin-top: -40%;
+        margin-top: -70%;
     }
     .card:nth-child(2){
         display: none;
@@ -1134,6 +1137,10 @@ footer h1 {
     }
     .contact-box{
         margin-bottom: 40px;
+    }
+    #Myprj{
+        margin-bottom: -50px;
+        margin-top: -50px;
     }
 }
 
