@@ -976,7 +976,12 @@ footer h1 {
     .blackhole-box video {
         margin-top: -20%;
     }
-
+    .hero{
+        margin-top: -32%;
+    }
+    .scroll-down{
+        margin-bottom: 20%;
+    }
     .hero-info h1 {
         font-size: 40px;
         max-width: 400px;
@@ -1003,6 +1008,14 @@ footer h1 {
 
     }
 
+    .info-section{
+        margin-top: -42%;
+    }
+    .skills-section{
+        margin-top: -30%;
+    }
+
+    
     .info-cards {
         grid-template-columns: auto;
     }
@@ -1061,10 +1074,16 @@ footer h1 {
         font-size: 15px;
     }
     .slider{
-        margin-bottom: 100px;
+        margin-bottom: 490px;
     }
+
     .contact-section{
-        margin-bottom: 120px;
+        margin-top: -180px;
+        margin-bottom: 150px;
+    }
+    .contact-section h1{
+       margin-top: -30px;
+        left: 30%;
     }
 }
 
@@ -1093,13 +1112,15 @@ footer h1 {
     }
     .hero{
         flex-direction: column;
+        margin-top: -129%;
+        
     }
     .autoBlur{
         animation:none;
 
     }
     .hero-info{
-        bottom: -5%;
+        bottom: -12%;
 
     }
     .hero-info h1{
@@ -1118,9 +1139,16 @@ footer h1 {
         width: 100%;
 
     }
+    
     .my-projects{
         margin-bottom: 600px;
 
+    }
+    .slider{
+        margin-top: 120px;
+    }
+    .info-section{
+        margin-top: 200px;
     }
     .project-card{
         flex-direction: column;
@@ -1152,15 +1180,12 @@ footer h1 {
     }
     .slider{
         top: 830px;
+        height: 40vh;
     }
     .slider img{
         width: 60%;
     }
-    .contact-section{
-        flex-direction: column;
-        margin-top: 100px;
-        margin-bottom: 50px;
-    }
+   
     .contact-section .section-title{
         top: -40px;
         left: 25%;
@@ -1176,8 +1201,8 @@ footer h1 {
     }
     .contact-section {
         flex-direction: column;
-        margin-top: 100px;
-        margin-bottom: 50px;
+        margin-top: 0px;
+        margin-bottom: 100px;
 
     }
     .contact-section .section-title{
@@ -1196,9 +1221,7 @@ footer h1 {
         margin-top: -900px;
         /* height: 600px; */
     }
-    .hero{
-        margin-top: -70%;
-    }
+  
     .card:nth-child(2){
         display: none;
     }
