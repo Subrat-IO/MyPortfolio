@@ -40,8 +40,10 @@ This site showcases my skills, projects, and journey as a full-stack developer i
 ---
 
 ## 📸 Screenshots
+![{B6EB47E2-552C-4B17-9C82-73FB15F947DB}](https://github.com/user-attachments/assets/06a37dce-72ce-45ce-b3cf-3d411a8023e1)
+![{2B197425-39C1-4BEE-A84B-D2BF0FBFF313}](https://github.com/user-attachments/assets/62be3d1b-62ab-4fc6-b3c0-c8044d178f38)
 
-![{DE9C07C9-4FFD-4C5B-B7F6-916E06F0BD04}](https://github.com/user-attachments/assets/7a9abdc3-d5fc-4aec-9c38-8cd1d18eb342)
+
 
 
 ---
