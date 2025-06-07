@@ -1083,7 +1083,7 @@ footer h1 {
     }
 }
 
-@media (max-width:700px){
+@media (max-width:768px){
     header{
         position: fixed;
         height: 50px;
@@ -1111,7 +1111,7 @@ footer h1 {
     }
     .hero{
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: -55%;
         
         
     }
@@ -1169,21 +1169,21 @@ footer h1 {
     }
 
     .skills-section{
-        margin-top: -3%;
+        margin-top: -50%;
     }
     .coder{
-        top: 63%;
+        top:35%;
         left: 18%;
     }
     .skills-box h1{
-        margin-top: 70px;
+        margin-top: 22%;
 
     }
     /* .skills-section{
         margin-top: -270px;
     } */
     .slider{
-        top: 602px;
+        top: 57%;
         height: 40vh;
     }
     .slider img{
@@ -1205,7 +1205,7 @@ footer h1 {
     }
     .contact-section {
         flex-direction: column;
-        margin-top: 325px;
+        margin-top: -30%;
         margin-bottom: 100px;
 
     }
@@ -1215,7 +1215,7 @@ footer h1 {
     }
 
     footer h1{
-        font-size: 17px;
+        font-size: 12px;
     }
     .project-vid-box{
         min-width: 200px;
@@ -1258,7 +1258,31 @@ footer h1 {
         margin-bottom: -80px;
         margin-top: -30px;
     }
+    .desktop-para {
+    display: none;
+  }
+  .mobile-para {
+    display: block;
+  }
 }
+/* Default: desktop visible, mobile hidden */
+.desktop-para {
+  display: block;
+}
+.mobile-para {
+  display: none;
+}
+
+/* On screens 768px or smaller, show mobile content */
+@media (max-width: 768px) {
+  .desktop-para {
+    display: none;
+  }
+  .mobile-para {
+    display: block;
+  }
+}
+
 
 
 /* 3list in tablet*/
