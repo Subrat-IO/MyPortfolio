@@ -1331,3 +1331,12 @@ body.dark-mode #darkModeToggle {
   transform: rotate(20deg) scale(1.1);
   filter: drop-shadow(0 0 6px #fdd835);
 }
+
+/* stary background */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000; /* dark purple base */
+  z-index: -1;
+}
