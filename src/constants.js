@@ -12,7 +12,12 @@ import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
-
+import chatappLogo from './assets/work_logo/chatapp.png';
+import countdowntimerLogo from './assets/work_logo/countdowntimer.png';
+import imagesliderLogo from './assets/work_logo/imageslider.png';
+import simonsayLogo from './assets/work_logo/simonsaygame.png';
+import travelgoLogo from './assets/work_logo/TravelGo.png';
+import weatherappLogo from './assets/work_logo/weatherapp.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
@@ -30,15 +35,10 @@ import peoplesCollegeLogo from './assets/education_logo/Peoples..jpg';
 import biswaLogo from './assets/education_logo/Biswa.jpg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import dockerLogo from './assets/tech_logo/docker.png';
+import jwtLogo from './assets/tech_logo/jwt.png';
+import websocketLogo from './assets/tech_logo/websockets.png';
+import cpanelLogo from './assets/tech_logo/cpanel.png';
 
 
 export const SkillsInfo = [
@@ -47,28 +47,29 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      
+
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
- 
+
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
+
   },
   {
     title: 'Backend',
     skills: [
-      
+
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
     ],
   },
-  
+
   {
     title: 'Tools',
     skills: [
@@ -76,9 +77,23 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Netlify', logo: netlifyLogo },
-      
+      { name: 'Docker', logo: dockerLogo },
+      { name: 'JWT', logo: jwtLogo },
+      { name: 'WebSockets', logo: websocketLogo },
+      { name: 'cPanel', logo: cpanelLogo },
+
     ],
   },
+{
+  title: 'Other Skills',
+  skills: [
+    { name: 'Responsive Design', img: null  },
+    { name: 'Problem-Solving', img: null },
+    { name: 'Teamwork', img: null },
+    { name: 'Communication', img: null },
+  ],
+}
+
 ];
 
 export const experiences = [
@@ -114,7 +129,7 @@ export const experiences = [
   },
 ];
 
-  
+
 export const education = [
   {
     id: 0,
@@ -145,95 +160,67 @@ export const education = [
   },
 ];
 
-  export const projects = [
+export const projects = [
     {
-      id: 0,
-      title: "GitHub Profile Detective",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    },
+    id: 0,
+    title: "TravelGo",
+    description:
+      "A modern travel website providing users with curated destinations, booking options, and travel tips. Features a responsive design with smooth animations.",
+    image: travelgoLogo,
+    tags: ["React JS", "Tailwind CSS", "API Integration"],
+    github: "https://github.com/Subrat-IO/TravelGo",
+    webapp: "https://travelgo-1wn1.onrender.com/listings",
+  },
+  {
+    id: 1,
+    title: "ChatApp",
+    description:
+      "A real-time chat application that allows users to send and receive messages instantly. Built with modern web technologies to provide a smooth and interactive messaging experience.",
+    image: chatappLogo,
+    tags: ["React JS", "Node.js", "Socket.io", "Express", "MongoDB"],
+    github: "https://github.com/Subrat-IO/BasicChat",
+    webapp: "https://basicchat-lhr6.onrender.com/chats",
+  },
+
+  {
+    id: 2,
+    title: "Weather App",
+    description:
+      "A weather forecast application that fetches real-time weather data based on user location or city search. Provides temperature, conditions, and other details.",
+    image: weatherappLogo,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Subrat-IO/Material_ui",
+    webapp: "https://weatherappsubrat.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Image Slider",
+    description:
+      "An interactive image slider that allows users to browse through images with smooth transitions. Built to showcase dynamic content in an engaging way.",
+    image: imagesliderLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS"],
+    github: "https://github.com/Subrat-IO/imageslidersubrat",
+    webapp: "https://subrat-io.github.io/imageslidersubrat/",
+  },
+  {
+    id: 4,
+    title: "Simon Say",
+    description:
+      "A fun memory game where players repeat random sequences of colors and sounds generated by the app. Built with JavaScript for an interactive gaming experience.",
+    image: simonsayLogo,
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Subrat-IO/Simonsay",
+    webapp: "https://subrat-io.github.io/Simonsay/",
+  },
+
     {
-      id: 1,
-      title: "CS Prep",
-      description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
-  ];  
+    id: 5,
+    title: "Countdown Timer",
+    description:
+      "A simple and customizable countdown timer application. Users can set specific dates or durations, and the app provides a live countdown with a clean UI.",
+    image: countdowntimerLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS"],
+    github: "https://github.com/Subrat-IO/countdown-timer",
+    webapp: "https://subrat-io.github.io/countdown-timer/",
+  },
+];
