@@ -27,8 +27,12 @@ A modern, responsive personal portfolio website built with **React** and **Boots
 ---
 
 ## Screenshots
+<img width="1907" height="942" alt="Screenshot 2025-09-18 113825" src="https://github.com/user-attachments/assets/1628c577-fc19-4c97-81f2-a595cc4099f6" />
+<img width="1903" height="948" alt="Screenshot 2025-09-18 113838" src="https://github.com/user-attachments/assets/5b7360dd-57f3-49d4-9984-b7b1b1c3f243" />
+<img width="1902" height="941" alt="Screenshot 2025-09-18 113858" src="https://github.com/user-attachments/assets/5a79221c-e90e-446f-bfad-ab87729d59fc" />
+<img width="422" height="855" alt="Screenshot 2025-09-18 113923" src="https://github.com/user-attachments/assets/f5b21cab-f493-40bf-8a35-0218c3db2a10" />
 
-> *(Add screenshots of your portfolio sections here if desired)*  
+
 
 - About Section  
 - Education & Experience  
