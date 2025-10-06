@@ -14,7 +14,7 @@ import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import chatappLogo from './assets/work_logo/chatapp.png';
 import countdowntimerLogo from './assets/work_logo/countdowntimer.png';
-import imagesliderLogo from './assets/work_logo/imageslider.png';
+import Web_SurferLogo from './assets/work_logo/Web_Sufer.png';
 import simonsayLogo from './assets/work_logo/simonsaygame.png';
 import travelgoLogo from './assets/work_logo/TravelGo.png';
 import weatherappLogo from './assets/work_logo/weatherapp.png';
@@ -84,15 +84,15 @@ export const SkillsInfo = [
 
     ],
   },
-{
-  title: 'Other Skills',
-  skills: [
-    { name: 'Responsive Design', img: null  },
-    { name: 'Problem-Solving', img: null },
-    { name: 'Teamwork', img: null },
-    { name: 'Communication', img: null },
-  ],
-}
+  {
+    title: 'Other Skills',
+    skills: [
+      { name: 'Responsive Design', img: null },
+      { name: 'Problem-Solving', img: null },
+      { name: 'Teamwork', img: null },
+      { name: 'Communication', img: null },
+    ],
+  }
 
 ];
 
@@ -161,7 +161,17 @@ export const education = [
 ];
 
 export const projects = [
-    {
+  {
+    id: 3,
+    title: "Image Web_Sur",
+    description:
+      "Web Surfer is a modern full-stack Next.js web application. It allows users to interact with AI-powered responses in real-time. The frontend is hosted on Vercel, the backend API on Render, and MongoDB is used for persisting user and chat data.",
+    image: Web_SurferLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS,Next.js, MongoDB,Redux"],
+    github: "https://github.com/Subrat-IO/Web_Surfer",
+    webapp: "https://web-surfer-nine.vercel.app/",
+  },
+  {
     id: 0,
     title: "TravelGo",
     description:
@@ -171,6 +181,7 @@ export const projects = [
     github: "https://github.com/Subrat-IO/TravelGo",
     webapp: "https://travelgo-1wn1.onrender.com/listings",
   },
+
   {
     id: 1,
     title: "ChatApp",
@@ -192,16 +203,7 @@ export const projects = [
     github: "https://github.com/Subrat-IO/Material_ui",
     webapp: "https://weatherappsubrat.netlify.app/",
   },
-  {
-    id: 3,
-    title: "Image Slider",
-    description:
-      "An interactive image slider that allows users to browse through images with smooth transitions. Built to showcase dynamic content in an engaging way.",
-    image: imagesliderLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS"],
-    github: "https://github.com/Subrat-IO/imageslidersubrat",
-    webapp: "https://subrat-io.github.io/imageslidersubrat/",
-  },
+
   {
     id: 4,
     title: "Simon Say",
@@ -213,13 +215,13 @@ export const projects = [
     webapp: "https://subrat-io.github.io/Simonsay/",
   },
 
-    {
+  {
     id: 5,
     title: "Countdown Timer",
     description:
       "A simple and customizable countdown timer application. Users can set specific dates or durations, and the app provides a live countdown with a clean UI.",
     image: countdowntimerLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS"],
+    tags: ["HTML", "CSS", "JavaScript",],
     github: "https://github.com/Subrat-IO/countdown-timer",
     webapp: "https://subrat-io.github.io/countdown-timer/",
   },
