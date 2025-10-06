@@ -177,7 +177,7 @@ export const projects = [
     description:
       "A modern travel website providing users with curated destinations, booking options, and travel tips. Features a responsive design with smooth animations.",
     image: travelgoLogo,
-    tags: ["React JS", "Tailwind CSS", "API Integration"],
+    tags: ["React JS", "Tailwind CSS", "API Integration","MongoDB","javaScript","MapBoxAPI"],
     github: "https://github.com/Subrat-IO/TravelGo",
     webapp: "https://travelgo-1wn1.onrender.com/listings",
   },
