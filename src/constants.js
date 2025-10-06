@@ -167,7 +167,7 @@ export const projects = [
     description:
       "Web Surfer is a modern full-stack Next.js web application. It allows users to interact with AI-powered responses in real-time. The frontend is hosted on Vercel, the backend API on Render, and MongoDB is used for persisting user and chat data.",
     image: Web_SurferLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS,Next.js, MongoDB,Redux"],
+    tags: ["HTML", "CSS", "JavaScript", "React JS","Next.js","Redux","MongoDB"],
     github: "https://github.com/Subrat-IO/Web_Surfer",
     webapp: "https://web-surfer-nine.vercel.app/",
   },
